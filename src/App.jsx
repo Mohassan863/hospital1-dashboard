@@ -124,18 +124,24 @@ const initialHospitalsData = [
     id: 33, name: "مستشفيات المواساة بالشرقية", nameEn: "Mouwasat Hospitals Eastern Region", sector: "خاص", region: "المنطقة الشرقية", visits: 1, machines: "غير محدد", type: "Fresenius & Baxter", consumables: "Fresenius & Baxter", shifts: "غير محدد", status: "Contracted with Competitor (Long-term)", contacts: [], notes: "تتم الزيارة يوم الاثنين - لديهم عقود حالية مع فرسينيس و باكستر -"
   },
   {
-    id: 34, name: "مستشفيات المانع بالشرقية (الخبر والدمام)", nameEn: "Almanaa Hospitals Eastern Region", sector: "خاص", region: "المنطقة الشرقية", visits: 4, machines: "40", type: "Nipro, Fresenius", consumables: "Nipro", shifts: "2", status: "Contracted with Competitor (Long-term)", contacts: [{ name: "م. إياد العلي", role: "مدير التجهيزات الطبية", phone: "509122345", email: "" }], notes: "لديهم عقد توريد ممتد مع شركة نبرو اليابانية لمستهلكات وأجهزة غسيل الكلى. لديهم وحدات غسيل نشطة في فروع الخبر، الدمام، والأحساء. المتابعة مستمرة لتقييم فرص الدخول والبدائل."
+    id: 34, name: "مستشفيات المانع بالشرقية (الخبر والدمام)", nameEn: "Almanaa Hospitals Eastern Region", sector: "خاص", region: "المنطقة الشرقية", visits: 4, machines: "40", type: "Nipro, Fresenius", consumables: "Nipro", shifts: "2", status: "Contracted with Competitor (Long-term)", contacts: [{ name: "م. إياد العلي", role: "مدير التجهيزات الطبية", phone: "509122345", email: "" }], notes: "يوجد قسم المشتريات في مستشفيات المانع-تم تسليم العينات الي قسم غسيل الكلي في الفرع الرئيسي بالخبر و هي الان في مرحلة التقييم و تتم المتابعة مع الدكتورة صفاء للتأكد من التسجيل في المانع كما أفادت الدكتورة صفاء للبدأ في مرحلة عرض المنتجات "
   },
   {
-    id: 42, name: "مستشفى عبيد بمجمع الخبر التعاوني", nameEn: "Obaid Hospital - Al-Khobar Branch", sector: "خاص", region: "المنطقة الشرقية", visits: 5, machines: "10", type: "Fresenius", consumables: "متنوع", shifts: "2", status: "Active Account - Part of Obaid Group", contacts: [{ name: "أ. محمود العاصي", role: "المشرف المالي لفرع الشرقية", phone: "562081389", email: "" }], notes: "فرع تابع لمستشفى عبيد الرئيسي بالرياض. توجد ١٠ أجهزة فرسينيس بالخبر تعمل على ورديتين. لديهم نفس مشاكل السداد الخاصة بالمجموعة. التوريد مستمر وبحذر تماشياً مع الدفعات المادية."
+    id: 42, name: "مستشفى عبيد بمجمع الخبر التعاوني", nameEn: "Obaid Hospital - Al-Khobar Branch", sector: "خاص", region: "المنطقة الشرقية", visits: 3, machines: "10", type: "Fresenius", consumables: "Wego & Sanxin", shifts: "2", status: "Active Account - Part of Obaid Group", contacts: [{ name: "", role: "", phone: "", email: "" }], notes: "فرع تابع لمستشفى عبيد الرئيسي بالرياض. توجد ١٠ أجهزة فرسينيس بالخبر تعمل على ورديتين. لديهم نفس مشاكل السداد الخاصة بالمجموعة. التوريد مستمر وبحذر تماشياً مع الدفعات المادية."
   },
   {
-    id: 43, name: "مستشفى الجبيل العام", nameEn: "Al-Jubail General Hospital", sector: "حكومي", region: "المنطقة الشرقية", visits: 2, machines: "", type: "", consumables: "NUPCO Contract", shifts: "2", status: "Tender-Based / Covered by NUPCO Contract", contacts: [], notes: " افاد المشتريات هناك بان مخزون كافي في التجمع الصحي"
+    id: 43, name: "مستشفى الجبيل العام", nameEn: "Al-Jubail General Hospital", sector: "حكومي", region: "المنطقة الشرقية", visits: 1, machines: "", type: "", consumables: "NUPCO Contract", shifts: "", status: "Tender-Based / Covered by NUPCO Contract", contacts: [], notes: " افاد المشتريات هناك بان مخزون كافي في التجمع الصحي"
   },
   
   {
-    id: 35, name: "تجمع الشرقية الصحي", nameEn: "Eastern Region Health Cluster", sector: "حكومي", region: "المنطقة الشرقية", visits: 1, machines: "تجميعي", type: "حكومي تشغيلي", consumables: "NUPCO Contract", shifts: "غير محدد", status: "Tender-Based / Covered by NUPCO Contract", contacts: [{ name: "Raad Al-Mutairy", role: "Planning Manager", phone: "554800311", email: "" }], notes: "تم مقابلة الأستاذ رعد المطيري مسؤول التخطيط و أفاد بأنه يجب ان تكون المنتجات الخاصة بغسيل الكلي كاملة في نوبكو للنظر في ان يطلب ام لا"
+    id: 35, name: "تجمع الشرقية الصحي", nameEn: "Eastern Region Health Cluster", sector: "حكومي", region: "المنطقة الشرقية", visits: 1, machines: "تجميعي", type: "حكومي تشغيلي", consumables: "NUPCO Contract", shifts: "غير محدد", status: "Tender-Based / Covered by NUPCO Contract", contacts: [{ name: "", role: "", phone: "", email: "" }], notes: ""
+  },{
+    id: 44, name: "مستشفي الهيئة الملكية بينبع و الجبيل ", nameEn: "Royal Commission Hospital in Jubail", sector: "حكومي", region: "المنطقة الشرقية", visits: 1, machines: "تجميعي", type: "حكومي تشغيلي", consumables: "NUPCO Contract", shifts: "غير محدد", status: "Tender-Based / Covered by NUPCO Contract", contacts: [{ name: "RAAD Al-Motary", role: "Planning Manager", phone: "", email: "" }], notes: "تم مقابلة الأستاذ رعد المطيري مسؤول التخطيط و أفاد بأنه يجب ان تكون المنتجات الخاصة بغسيل الكلي كاملة في نوبكو للنظر في ان يطلب ام لا "
+  },{
+    id: 39, name: "مستشفي جاما", nameEn: "Gamma Hospital", sector: "حكومي", region: "المنطقة الشرقية", visits: 1, machines: "", type: "", consumables: "عقد نوبكو", shifts: "", status: "Pipeline - Quotation Requested / Under Preparation", contacts: [{ name: "Syed Majid Hashmi", role: "Purchasing Manager", phone: "507950392", email: "majid@gamahospital.com" }], notes: "تم زيارة العميل و المتاعبعة معه و افاد في الزيارة الأخيرة بارسال عرض السعر - اكثر الاحجام التي يستخدمونها في الفلاتر هي 19 و 21  - يستخدمون حاليا منتجات زانسين من نفوز "
   },
+  
+
   {
     id: 36, name: "مجمع الدمام الطبي", nameEn: "Dammam Medical Complex", sector: "حكومي", region: "المنطقة الشرقية", visits: 1, machines: "", type: "", consumables: "عقد نوبكو", shifts: "", status: "Tender-Based / Covered by NUPCO Contract", contacts: [], notes: "افاد المشتريات هناك بان مخزون كافي في التجمع الصحي. المركز يعمل بكامل طاقته لتغطية المرضى الحكوميين بالدمام."
   },
@@ -148,7 +154,7 @@ const initialHospitalsData = [
 
   // ================= الخرج (خاص وحكومي) =================
   {
-    id: 45, name: "مستشفى الملك خالد بالخرج", nameEn: "King Khalid Hospital Al-Kharj", sector: "حكومي", region: "الخرج", visits: 1, machines: "25", type: "Fresenius 5008S", consumables: "Fresenius", shifts: "2", status: "Active Account - Covered by NUPCO Contract", contacts: [{ name: "Mona", role: "Head Nurse ", phone: "550212208", email: "" }], notes: "افاد المشتريات هناك بان مخزون كافي في التجمع الصحي -تم مقابلة التمريض و افادة رئيسة التمريض مني بأنها ستناقش هذا مع الطبيب لوجوده في إجازة حاليا و ربما تقوم بطلب عينات ان كان هناك فرصة للطلب"
+    id: 45, name: "مستشفى الملك خالد بالخرج", nameEn: "King Khalid Hospital Al-Kharj", sector: "حكومي", region: "الخرج", visits: 1, machines: "", type: "", consumables: "", shifts: "", status: "Active Account - Covered by NUPCO Contract", contacts: [{ name: "Mona", role: "Head Nurse ", phone: "550212208", email: "" }], notes: "افاد المشتريات هناك بان مخزون كافي في التجمع الصحي -تم مقابلة التمريض و افادة رئيسة التمريض مني بأنها ستناقش هذا مع الطبيب لوجوده في إجازة حاليا و ربما تقوم بطلب عينات ان كان هناك فرصة للطلب"
   },
   {
     id: 46, name: "المستشفى العسكري بالخرج (المصانع الحربية)", nameEn: "Military Hospital Al-Kharj", sector: "حكومي", region: "الخرج", visits: 1, machines: "", type: "", consumables: "", shifts: "", status: "Tender-Based / Future Opportunity", contacts: [{ name: "", role: "", phone: "", email: "" }], notes: "مستشفى عسكري مميز بوحدة كلى مجهزة. نتابع طرح البنود للتنافس مع المورد الحالي باكستر وتقديم عروض أسعار تنافسية للفلاتر والابر المعتمدة."
